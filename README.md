@@ -2,7 +2,8 @@
 
 # Usage
 
-Allowed input for `--inputpath` is **file**, **directory**. Allowed input for `--outputpath` is **file**, **directory**. When is `--outputpath` no specified, is used **stdout**.
+Allowed input for `--inputpath` is **file**, **directory**. \
+Allowed input for `--outputpath` is **file**, **directory**. When is `--outputpath` no specified, is used **stdout**.
  ```
  Grunt --inputpath=./test/input/subdir/file.js                                      # file to stdout
  Grunt --inputpath=./test/input/subdir/file.js > ./test/output/file.js              # file to file
