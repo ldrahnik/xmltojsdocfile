@@ -1,6 +1,6 @@
 {
   "name": "@ldrahnik/xmltojsdocfile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "xmltojsdocfile.js",
   "author": "Lukáš Drahník <ldrahnik@gmail.com>, Craig Patik <craig@patik.com> (http://patik.com)",
