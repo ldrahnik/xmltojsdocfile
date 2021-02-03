@@ -2,7 +2,7 @@
 
 var fs = require("fs");
 var path = require("path");
-var XMLToJsDoc = require("@peopleinneed/xmltojsdoc");
+var XMLToJsDoc = require("@ldrahnik/xmltojsdoc");
 
 var defaultOptions = exports.defaultOptions = {
     commentIsBelowDefinition: false
