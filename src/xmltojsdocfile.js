@@ -37,9 +37,9 @@ exports.convertDirToOutput = function(inputDirPath, outputFileOrDirPath, customO
 
         var inputFilePath = path.join(inputDirPath, relativeInputFilePathToInputDirPath);
         var output = exports.convertFile(inputFilePath, customOptions);
-    
+
         if(output) {
-            writeOutputToOutput(output, relativeInputFilePathToInputDirPath, outputFileOrDirPath, true);        
+            writeOutputToOutput(output, relativeInputFilePathToInputDirPath, outputFileOrDirPath, true);
         }
     });
 }
@@ -85,7 +85,7 @@ function writeOutputToOutput(output, relativeInputFilePathToInputDirPath, output
 }
 
 exports.convertFileToOutput = function(inputDirPath, relativeInputFilePathToInputDirPath, outputFileOrDirPath, customOptions) {
-    
+
     var inputFilePath = path.join(inputDirPath, relativeInputFilePathToInputDirPath);
     var output = exports.convertFile(inputFilePath, customOptions);
 

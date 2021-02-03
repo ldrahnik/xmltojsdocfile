@@ -11,7 +11,7 @@ module.exports = function(grunt) {
     grunt.log.success = function () {};
 
     var xmltojsdoc = require("./src/xmltojsdocfile");
-  
+
     grunt.registerTask('default', function() {
         var inputPath = grunt.option('inputpath');
         var outputPath = grunt.option('outputpath');
