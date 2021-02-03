@@ -19,7 +19,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@ldrahnik/xmltojsdoc": "git+https://github.com/ldrahnik/xmltojsdoc.git",
+    "@ldrahnik/xmltojsdoc": "git+https://github.com/ldrahnik/xmltojsdoc.git#main",
     "grunt": "^1.3.0",
     "jsdom": "^16.4.0"
   },
